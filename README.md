@@ -1,73 +1,43 @@
-# React + TypeScript + Vite
+# Vitor Veiga — Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site pessoal e portfólio de **Vitor Veiga**, desenvolvedor web especializado em plataformas WebGIS, gestão municipal e dados geoespaciais.
 
-Currently, two official plugins are available:
+🌐 **[vitor-veiga.github.io](https://vitor-veiga.github.io)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Sobre
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Portfólio desenvolvido com foco em apresentar projetos de tecnologia cívica, sistemas de informação geográfica e desenvolvimento web full-stack. O site conta com seções de apresentação, serviços, projetos com mapas interativos, currículo e contato.
 
-## Expanding the ESLint configuration
+## Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** + **TypeScript**
+- **Vite** (build tool)
+- **TailwindCSS v4**
+- **MapLibre GL JS** / **react-map-gl** (mapas interativos)
+- **React Three Fiber** / **Three.js** (globo 3D)
+- **Lucide React** (ícones)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Especialidades destacadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- Plataformas WebGIS (MapLibre, Leaflet, PostGIS)
+- Desenvolvimento Front-end (React, TypeScript, TailwindCSS)
+- Back-end & APIs REST (Python, Flask, Supabase)
+- Banco de Dados Geoespacial (PostgreSQL, PostGIS)
+- Modelagem Preditiva & Dados Ambientais
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Rodando localmente
+
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Deploy
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+O site é publicado automaticamente via **GitHub Actions** no GitHub Pages a cada push para `main`.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+> Desenvolvido por Vitor Veiga · [vitor-veiga.github.io](https://vitor-veiga.github.io)
