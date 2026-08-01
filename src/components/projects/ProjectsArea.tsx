@@ -140,7 +140,7 @@ const projects: Project[] = [
     id: 5,
     title: "WebGIS CTM e PGV — Fernandes Pinheiro",
     subtitle: "Contrato com a Prefeitura Municipal e FAUEPG",
-    period: "maio/2024 – atualmente",
+    period: "maio/2026 – atualmente",
     description:
       "Sistema WebGIS para gestão territorial, com foco em Cadastro Técnico Multifinalitário e Planta Genérica de Valores.",
     longDescription:
