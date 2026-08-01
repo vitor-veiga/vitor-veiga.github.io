@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { File, Lock } from "lucide-react";
+import { ExternalLink, File, Lock } from "lucide-react";
 import ProjectMap from "./ProjectMap";
 import GeometricBackground from "../ui/GeometricBackground";
 import FadeIn from "../ui/FadeIn";
@@ -24,6 +24,7 @@ interface Project {
   };
   highlight?: string;
   documents?: string;
+  link?: string;
 }
 
 const projects: Project[] = [
@@ -81,6 +82,7 @@ const projects: Project[] = [
       boundaryUrl:
         "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4109500?formato=application/vnd.geo+json",
     },
+    link: "https://webgis.uepg.br/guaraquecaba/",
   },
   {
     id: 3,
@@ -132,6 +134,24 @@ const projects: Project[] = [
       latitude: -24.7,
       label: "Vale do Ribeira, PR/SP",
       boundaryData: valeDoRibeiraGeoJSON,
+    },
+  },
+  {
+    id: 5,
+    title: "WebGIS CTM e PGV — Fernandes Pinheiro",
+    subtitle: "Contrato com a Prefeitura Municipal e FAUEPG",
+    period: "maio/2024 – atualmente",
+    description:
+      "Sistema WebGIS para gestão territorial, com foco em Cadastro Técnico Multifinalitário e Planta Genérica de Valores.",
+    longDescription:
+      "Contrato com a Prefeitura Municipal de Fernandes Pinheiro e FAUEPG para desenvolvimento de uma plataforma de gestão territorial integrada, estruturada a partir da modernização do Cadastro Técnico Municipal (CTM) e da atualização da Planta Genérica de Valores (PGV). Ao unificar dados geoespaciais e tributários em um ambiente dinâmico, a ferramenta assegura a justiça fiscal, otimiza a arrecadação e subsidia diagnósticos precisos para a administração pública.",
+    tags: ["WebGIS", "MapLibre", "PostGIS", "Python"],
+    map: {
+      latitude: -25.41519429729478,
+      longitude: -50.54808274159921,
+      label: "Fernandes Pinheiro, PR ",
+      boundaryUrl:
+        "https://servicodados.ibge.gov.br/api/v3/malhas/municipios/4107736?formato=application/vnd.geo+json",
     },
   },
 ];
@@ -253,22 +273,36 @@ export default function ProjectsArea() {
                   ))}
                 </div>
 
-                <div className="flex gap-3 pt-1">
-                  {(selected.documents && (
+                <div className="flex flex-wrap gap-3 pt-1">
+                  {selected.documents ? (
                     <a
                       href={selected.documents}
                       target="_blank"
+                      rel="noreferrer"
                       className="inline-flex items-center gap-2 text-xs bg-primary-700 text-white px-3 py-2 rounded-lg hover:bg-primary-600 transition-colors duration-200 cursor-pointer"
                     >
                       <File className="w-3.5 h-3.5" />
                       Documento comprobatório
                     </a>
-                  )) || (
+                  ) : (
                     <div className="inline-flex items-center gap-2 text-xs text-secondary-400 border border-secondary-200 px-3 py-2 rounded-lg">
                       <Lock className="w-3.5 h-3.5" />
                       Documentos indisponíveis
                     </div>
                   )}
+
+                  {selected.link && (
+                    <a
+                      href={selected.link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-xs text-primary-700 bg-primary-50 border border-primary-200 px-3 py-2 rounded-lg hover:bg-primary-100 transition-colors duration-200"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      Acessar projeto
+                    </a>
+                  )}
+
                   <div className="inline-flex items-center gap-2 text-xs text-secondary-400 border border-secondary-200 px-3 py-2 rounded-lg">
                     <Lock className="w-3.5 h-3.5" />
                     Repositório privado
