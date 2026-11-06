@@ -10,7 +10,15 @@ import FadeIn from "../ui/FadeIn";
 
 const experiences = [
   {
-    period: "Mar/2025 – Atualmente",
+    period: "Mar/2026 – Atualmente",
+    title: "Projeto de Extensão / RPA – Plataforma WebGIS CTM e PGV",
+    org: "UEPG – Fernandes Pinheiro",
+    description:
+      "Desenvolvimento integral e autônomo (end-to-end) de plataforma de gestão territorial para modernização do Cadastro Técnico Municipal e atualização da Planta Genérica de Valores de Fernandes Pinheiro-PR, incluindo modelagem do banco geoespacial e deploy.",
+    tags: ["WebGIS", "PostGIS", "Docker", "Nginx"],
+  },
+  {
+    period: "Mar/2026 – Atualmente",
     title: "Operação Rondon PR – Desenvolvedor de Sistemas de Dados",
     org: "Operação Rondon PR",
     description:
@@ -18,7 +26,7 @@ const experiences = [
     tags: ["WebGIS", "Mobile", "React"],
   },
   {
-    period: "Mar/2025 – Atualmente",
+    period: "Mar/2026 – Atualmente",
     title: "Iniciação Tecnológica – Modelagem Preditiva e WebGIS",
     org: "UEPG – Vale do Ribeira",
     description:
