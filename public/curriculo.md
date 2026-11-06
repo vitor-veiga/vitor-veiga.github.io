@@ -11,7 +11,7 @@
 - Local: Ponta Grossa, PR
 - LinkedIn: [linkedin.com/in/vitor-veiga-6671a12b9](https://linkedin.com/in/vitor-veiga-6671a12b9)
 - GitHub: [https://github.com/vitor-veiga](https://github.com/vitor-veiga)
-- Portfólio: [https://portfolio-weld-nine-83.vercel.app](https://portfolio-weld-nine-83.vercel.app)
+- Portfólio: [https://vitor-veiga.github.io](https://vitor-veiga.github.io)
 
 ---
 
@@ -30,22 +30,25 @@ Estudante de Engenharia de Computação com experiência prática no desenvolvim
 ## HABILIDADES TÉCNICAS
 
 **Front-end & Mobile**  
-React, TypeScript, TailwindCSS, HTML5/CSS3, desenvolvimento de aplicativos móveis (coleta de dados em campo)
+React, React Native, TypeScript, TailwindCSS, HTML5/CSS3, desenvolvimento de aplicativos móveis (coleta de dados offline/em campo)
 
 **Back-end & APIs**  
-Python (Flask), REST APIs, autenticação (JWT/Supabase Auth), integração de serviços
+Python (Flask), REST APIs, SQLAlchemy, autenticação & segurança (JWT, PyJWT, zxcvbn, Rate Limiting), integração de serviços
 
 **Banco de Dados Geoespacial**  
-PostgreSQL / PostGIS, Supabase, consultas espaciais, modelagem de dados geográficos
+PostgreSQL / PostGIS, Redis, Supabase, consultas espaciais avançadas, modelagem e estruturação de dados geográficos
+
+**Infraestrutura, DevOps & Redes**  
+Docker, Docker Compose, Nginx (proxy reverso e servidores web), gerenciamento e deploy em servidores Linux (SSH, configuração de ambiente), arquitetura de redes e microsserviços
 
 **Ferramentas GIS & Geoprocessamento**  
-WebGIS (Leaflet / MapLibre), mapas interativos, análise espacial
+WebGIS (MapLibre GL JS, Leaflet), GeoServer, QGIS, GDAL/OGR, mapas interativos, processamento e análise espacial
 
-**Ciência de Dados & Modelagem**  
-Modelagem preditiva aplicada a dados ambientais, análise de dispersão de contaminantes (em andamento)
+**Ciência de Dados & Modelagem Preditiva**  
+Modelagem preditiva aplicada a dados ambientais, análise de estatística aplicada/dispersão espacial de dados, R
 
 **Outros**  
-Git, organização de eventos, gestão acadêmica, elaboração de relatórios técnicos
+Git, GitHub, organização de eventos tecnológicos/acadêmicos, gestão acadêmica, elaboração de relatórios técnicos e documentos institucionais
 
 ---
 
@@ -79,15 +82,23 @@ Responsável pelo desenvolvimento da plataforma WebGIS do município de Guaraque
 
 ### Iniciação Tecnológica – Modelagem Preditiva e WebGIS (Vale do Ribeira)
 
-_mar/2025 – Atualmente_
+_mar/2026 – Atualmente_
 
 Iniciação tecnológica em andamento, focada no desenvolvimento de um sistema WebGIS com modelagem preditiva para análise da dispersão de contaminantes (chumbo, arsênio, cádmio, zinco) no Vale do Ribeira e seu impacto em propriedades rurais. O projeto integra ciência de dados geográficos e monitoramento ambiental com potencial de aplicação em políticas públicas de saúde e meio ambiente.
 
 ### Operação Rondon PR – Desenvolvedor de Sistemas de Dados
 
-_mar/2025 – Atualmente_
+_mar/2026 – nov/2026_
 
 Responsável pela proposta, aprovação e desenvolvimento de um sistema integrado composto por aplicativo móvel para coleta de dados em campo e plataforma WebGIS para visualização e análise espacial. A solução foi aprovada em reunião com todas as universidades participantes da Operação Rondon PR, utilizando a plataforma WebGIS desenvolvida para o município de Guaraqueçaba como prova de conceito. O projeto visa otimizar o fluxo de dados operacionais e dar suporte visual à tomada de decisão nas ações de extensão em municípios do Paraná
+
+### RPA - Plataforma WebGIS CTM e PGV Fernades Pinheiro
+
+_abril/2026 - Atualmente_
+
+Desenvolvimento integral e autônomo (end-to-end) de plataforma de gestão territorial para modernização do Cadastro Técnico Municipal (CTM) e atualização da Planta Genérica de Valores (PGV) de Fernandes Pinheiro-PR. Responsável pela arquitetura e estruturação do banco de dados geoespacial, integração de dados tributários e espaciais em ambiente dinâmico, desenvolvimento de interface interativa e deploy do sistema na infraestrutura. A solução apoia a justiça fiscal, a otimização da arrecadação e subsidia tomadas de decisão na administração pública municipal.
+
+###
 
 ---
 
@@ -103,8 +114,12 @@ Responsável pela proposta, aprovação e desenvolvimento de um sistema integrad
 
 - Apresentação: Festival Inova Iguassu 2025 – Itaipu Parquetec | 2025 | 30h
 - Apresentação: 23° Encontro Conversando Sobre a Extensão CONEX – UEPG | 2025 | 18h
+- Apresentação: 24º Encontro Conversando Sobre a Extensão CONEX - UEPG | 2026 | 18h
 - Apresentação: A Interação entre a Engenharia de Computação e o Planejamento Urbano – UEPG | 2025 | 54h
+- Apresentação: O papel dos Sistemas WebGIS na modernização da gestão territorial dos municípios
+  paranaenses - UEPG | 2026 | 54h
 - Organização: CIPMECS IV - Inovações e Tendências Tecnológicas – DAESC | 2025 | 40h
+- Organização: CIPMECS V - Mercado de Trabalho: Desafios, Oportunidades e o Futuro da Tecnologia - DAESC | 2026 | 40h
 - Participação: DevPR Conf – Comunidade DevParaná | 2024 | 10h
 - Organização: Semana de Integração dos Calouros de Engenharia de Software e Computação – UEPG | 2025 e 2026 | 40h
 - Moção de Aplausos por relevante contribuição ao desenvolvimento territorial e urbano de municípios paranaenses – Câmara Municipal de Ponta Grossa | 2026

@@ -146,6 +146,7 @@ const projects: Project[] = [
     longDescription:
       "Contrato com a Prefeitura Municipal de Fernandes Pinheiro e FAUEPG para desenvolvimento de uma plataforma de gestão territorial integrada, estruturada a partir da modernização do Cadastro Técnico Municipal (CTM) e da atualização da Planta Genérica de Valores (PGV). Ao unificar dados geoespaciais e tributários em um ambiente dinâmico, a ferramenta assegura a justiça fiscal, otimiza a arrecadação e subsidia diagnósticos precisos para a administração pública.",
     tags: ["WebGIS", "MapLibre", "PostGIS", "Python"],
+    documents: "/fernandes-pinheiro.pdf",
     map: {
       latitude: -25.41519429729478,
       longitude: -50.54808274159921,
